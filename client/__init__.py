@@ -1,4 +1,3 @@
-```python id="sx4g7q"
 import asyncio
 import logging
 
@@ -39,4 +38,4 @@ class AsyncClient:
                 break
 
             logger.info("Packet received")
-```
+
