@@ -1,4 +1,3 @@
-```python id="ow6d4y"
 from dataclasses import dataclass
 import secrets
 import time
@@ -23,5 +22,3 @@ class Packet:
 
         if self.nonce is None:
             self.nonce = secrets.token_hex(12)
-```
-
