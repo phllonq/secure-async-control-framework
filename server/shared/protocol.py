@@ -22,3 +22,4 @@ class Packet:
 
         if self.nonce is None:
             self.nonce = secrets.token_hex(12)
+
