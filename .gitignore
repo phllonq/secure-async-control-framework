@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+```gitignore id="n7k2q1"
+# TLS certificates
+certs/*.pem
+certs/*.key
+certs/*.csr
+
+# Runtime logs
+logs/
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# SQLite databases
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local runtime state
+runtime/
+sessions/
+cache/
+```
