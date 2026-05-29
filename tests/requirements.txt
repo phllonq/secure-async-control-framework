@@ -1,0 +1,4 @@
+pytest
+aiosqlite
+cryptography
+
